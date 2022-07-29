@@ -1,5 +1,6 @@
 twitch-videoad.js application/javascript
 (function() {
+    return;
     if ( /(^|\.)twitch\.tv$/.test(document.location.hostname) === false ) { return; }
     function declareOptions(scope) {
         // Options / globals
